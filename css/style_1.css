@@ -1,0 +1,81 @@
+/*
+Theme Name: WAH-Child
+Author: Dream-Theme
+Author URI: http://dream-theme.com/
+Description: The7 is perfectly scalable, performance and SEO optimized, responsive, retina ready multipurpose WordPress theme. It will fit every site – big or small. From huge corporate portals to studio or personal sites – The7 will become a great foundation for your next project!
+Version: 1.0.0
+License: This WordPress theme is comprised of two parts: (1) The PHP code and integrated HTML are licensed under the GPL license as is WordPress itself.  You will find a copy of the license text in the same directory as this text file. Or you can read it here: http://wordpress.org/about/gpl/ (2) All other parts of the theme including, but not limited to the CSS code, images, and design are licensed according to the license purchased. Read about licensing details here: http://themeforest.net/licenses/regular_extended
+Template: dt-the7
+*/
+
+img[src$=".svg"] { width: 80px; height: 80px; }
+
+.wp-caption-text,
+.sticky,
+.gallery-caption,
+.bypostauthor,
+.main-page {}
+
+.dt-mobile-menu-icon .lines, .dt-mobile-menu-icon .lines:before, .dt-mobile-menu-icon .lines:after {
+    background-color: #fff;
+}
+.mobile-header-bar .mobile-mini-widgets .mini-search .submit {
+    color: #37a0ef !important;
+}
+.main-nav .sub-nav > li.dt-mega-parent > a .menu-text {
+ font-family: Red Hat Display;
+    text-transform: none;
+}	
+	
+	
+.mobile-header-bar .mobile-mini-widgets .popup-search .submit i, .mobile-header-bar .mobile-mini-widgets .overlay-search .submit i {
+    color: #37a0ef !important;
+}
+
+.main-nav .sub-nav > li > a .menu-text {
+    font-family: Red Hat Display;
+    text-transform: none;
+}
+
+
+.ap_footer{
+	background-color:#37a0ef !important;
+	margin: -60px 25px -65px -25px !important;
+	padding: 50px 30px 80px 30px !important;
+	min-height: 100% !important;
+	width: 100% !important;
+	color: #fff !important;
+	font-size:17px !important;
+
+}
+.footer .widget-title {
+    font-weight:bold;
+}
+/*
+#bottom-bar {
+    background-color:#464547 !important;
+}
+#bottom-bar a{
+	text-decoration: underline;
+}
+*/
+.wpb-js-composer .vc_tta.vc_tta-gap-5.vc_tta-tabs-position-top .vc_tta-tabs-container {
+    margin-bottom: 5px;
+	border-bottom: 1px solid #ccc;
+	
+}
+.wpb-js-composer .vc_tta.vc_general .vc_tta-tab>a {
+    background: none !important;
+	border-radius: 0px !important;
+}
+
+.wpb-js-composer .vc_tta.vc_general .vc_tta-tab>a:focus{
+    border-bottom:solid 2px #37a0ef !important;
+}
+
+.wpb-js-composer .vc_tta-color-white.vc_tta-style-flat .vc_tta-tab.vc_active>a {
+
+    color: #000 !important;
+	font-weight: bold;
+	border-bottom:solid 2px #37a0ef !important;
+}
